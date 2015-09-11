@@ -9,7 +9,7 @@ public class Test1 {
 		Asalariado emp1 = new Asalariado(29320000,"Mariano Piedrozzi",225,100);
 
 		System.out.println(emp1.toString());
-		System.out.println(emp1.calcularSueldo());
+		System.out.println("Sueldo=" + emp1.calcularSueldo());
 	}
 
 }
